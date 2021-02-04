@@ -22,7 +22,11 @@ from .utils import load_pretrained_weights
 # AlexNet model architecture from the One weird trick...
 # <https://arxiv.org/abs/1404.5997>`_ paper.
 class AlexNet(nn.Module):
-    r""" An AlexNet model. Most easily loaded with the .from_name or .from_pretrained methods
+    """
+    Description:
+        This dnn model is made for self-learning purpose.
+        By referring to AlexNet and ZFNet.
+        - An AlexNet model. Most easily loaded with the .from_name or .from_pretrained methods
 
     Args:
       global_params (namedtuple): A set of GlobalParams shared between blocks
