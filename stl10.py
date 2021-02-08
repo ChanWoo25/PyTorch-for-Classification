@@ -1,5 +1,9 @@
+# 10 classes: airplane, bird, car, cat, deer, dog, horse, monkey, ship, truck.
+# Images are 96x96 pixels, color.
+# 500 training images (10 pre-defined folds), 800 test images per class.
+# 100000 unlabeled images for unsupervised learning. These examples are extracted from a similar but broader distribution of images. For instance, it contains other types of animals (bears, rabbits, etc.) and vehicles (trains, buses, etc.) in addition to the ones in the labeled set.
+# Images were acquired from labeled examples on ImageNet.
 from __future__ import print_function
-
 import sys
 import os, sys, tarfile, errno
 import numpy as np
